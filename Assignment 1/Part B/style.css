@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+header{
+  background-color: #70B85D;
+ padding: auto;
+}
+main{
+  margin: 10px 100px  ;
+}
+ 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+ 
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+ul li a:hover{
+  text-decoration: none;
+  color: rgb(224, 213, 213);
+  padding: 15px;
+}
+
+  .row{
+    margin: 10px 150px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  .column{
+    background-color: rgb(218, 217, 217);
+    padding: 15px;
+    
+  }
